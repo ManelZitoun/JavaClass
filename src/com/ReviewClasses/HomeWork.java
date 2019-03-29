@@ -57,9 +57,9 @@ public class HomeWork {
 		for (int i=0; i<a.length; i++) {
 			for (int j=i; j<=i; j++) {
 				if (j==i) {
-					
+					System.out.println("True");
+
 				}
-				System.out.println("True");
 
 			}
 		}

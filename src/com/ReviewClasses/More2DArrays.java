@@ -57,16 +57,16 @@ public class More2DArrays {
 //           }
 //       }
 //       System.out.println(sum);
-//       
-//       System.out.println(para.substring(para.length()/2));
-//       System.out.println(para.substring(10, 20));
-	       String para = "The quick brown fox jumps over the lazy dog.";
+       String para = "The quick brown fox jumps over the lazy dog.";
+       System.out.println(para.substring(para.length()/2));
+       System.out.println(para.substring(10, 20));
+//	       String para = "The quick brown fox jumps over the lazy dog.";
 //System.out.println(para.length());
 //System.out.println(para.length()-1);
-       for (int i=para.length()-1; i>=0; i--) {
-    	   System.out.print(para.charAt(i));
-       }
-       
+//       for (int i=para.length()-1; i>=0; i--) {
+//    	   System.out.print(para.charAt(i));
+//       }
+//       
 //       System.out.println(para.trim());
        
 	
