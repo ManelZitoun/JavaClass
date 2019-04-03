@@ -68,6 +68,7 @@ public class More2DArrays {
 //       }
 //       
 //       System.out.println(para.trim());
+ 
        
 	
 	}

@@ -33,9 +33,29 @@ public class StringPractice {
 //    	 Boy or Girl? boy
 //    	 Suggested baby name: DANRY
      
+     String babyName; 
      
      Scanner scan=new Scanner(System.in);
      System.out.println("What is the mom's first name?");
+     String mom=scan.nextLine();
+     System.out.println("What is the dad's first name?");
+     String dad=scan.nextLine();
+     System.out.println("What is the gender of the baby?");
+     String gender=scan.nextLine(); 
+     
+     if (gender.equalsIgnoreCase("boy")) {
+    	 babyName=dad.substring(0, dad.length()/2)+mom.substring(mom.length()/2);
+     } else if (gender.equalsIgnoreCase("girl")) {
+    	 babyName=mom.substring(0, mom.length()/2)+dad.substring(dad.length()/2); 
+     } else {
+    	 babyName="No suggenstion"; 
+     }
+     
+     System.out.println(babyName.toUpperCase());
+     
+     
+     
+     
      
      
         
