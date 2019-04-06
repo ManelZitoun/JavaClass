@@ -1,5 +1,7 @@
 package com.class14;
 
+import java.util.Scanner;
+
 public class InterveiwQPractice {
 	public static void main(String[] args) {
 		//Write a program to swap 2 numbers without a temporary variable? 
@@ -179,12 +181,29 @@ public class InterveiwQPractice {
          System.out.println("Prime numbers from 1 to 100 are :");
          System.out.println(primeNumbers);
          
+         Scanner sc = new Scanner(System.in); 
+         String x="ChRoME";
+         String y="FireFOX";
+         String z="Ie";
+       System.out.println("Enter the browser name to proceed further with execution");
+        String browser = sc.nextLine(); 
+         if (browser.equals(x)) {
+           System.out.println("Proceed with chrome browser");
+         } else if (browser.equals(y)) {
+           System.out.println("Proceed with firefox Browser");
+         } else if (browser.equals(z)) {
+           System.out.println("Proceed with ie Browser");
+         } else {
+           System.out.println("Invalid Browser"); 
+         }
         
+       }
+     
          
          
          }
          
-	}
+	
          
 	
 
