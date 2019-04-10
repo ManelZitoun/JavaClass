@@ -14,7 +14,6 @@ public class Application {
 //		System.out.println(math.mult(2, 3)); 
 		
 		Application app=new Application();
-		System.out.println(app.example4(1234));
 		
 		
 	}
