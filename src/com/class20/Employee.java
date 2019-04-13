@@ -3,7 +3,7 @@ package com.class20;
 public class Employee {
 	
 	int eID;
-	 int salary;
+	int salary;
 	static String CEO="Sumair";
 	
 	public static void main(String[] args) {
